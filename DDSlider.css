@@ -1,0 +1,72 @@
+
+
+ul{ margin:0px; padding:0px;}
+li{ margin:0px; padding:0px;}
+	/*------------------------
+	---------------- CONTENT
+	------------------------*/
+	
+	/* You might want to change these options for the main container */
+	#yourSliderId {
+		
+		float: left;
+		height: 450px;
+		width: 840px;
+		margin:0px;
+	-webkit-box-shadow: #999a9a 0px 0px 10px;
+-moz-box-shadow: #999a9a 0px 0px 10px;
+box-shadow: #999a9a 0px 0px 10px;
+border: 1px solid silver;
+-webkit-border-radius: 10px 10px 10px 10px;
+-moz-border-radius: 10px 10px 10px 10px;
+border-radius: 10px 10px 10px 10px;
+
+		
+	}
+	
+	/* images container - This is the most important container - Don't change important properties */
+	#yourSliderId {
+		
+		list-style: none !important;
+		margin: 0 !important;
+		overflow: hidden !important;
+		position: relative !important;
+		
+	}
+
+		/* each slider item - Nothing to change here */
+		#yourSliderId li {
+			
+			display: none;
+			float: left;
+			margin: 0;
+			position: absolute;
+			width: 100%;
+			z-index:-1;
+	
+			
+		}
+		
+		/* Don't edit this part */
+		#yourSliderId li.current {
+			
+			display: block;
+			z-index: 2 !important;
+			
+		}
+		
+		/* Don't edit this part */
+		#yourSliderId li.next {
+			
+			display: block;
+			z-index: 1 !important;
+			
+		}
+		
+		/* Don't edit this part - prevents inline lists from being hidden */
+		#yourSliderId li ul li {
+			
+			display: block !important;
+			position: relative !important;
+			
+		}

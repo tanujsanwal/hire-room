@@ -1,0 +1,181 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeFile="master_page1.master.cs" Inherits="master_page1" %>
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head runat="server">
+    <title></title>
+    <asp:ContentPlaceHolder id="head" runat="server">
+    </asp:ContentPlaceHolder>
+
+<link href="sty.css" rel="stylesheet" type="text/css" />
+</head>
+
+
+<body style="background-image: url(images/bg.jpg);">
+   
+    <form id="form1" runat="server">
+ 
+   <div class="logo">
+ <a href="Default.aspx" runat="server">
+   <img src="images/tanu.png" alt="" style="  width:165px; height:123px;"/></a>
+      </div>
+	  <br/>
+	 
+     
+	 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+	 
+    <center>   
+	    <span class="head" >
+   
+    APARTMENTS FOR RENT..!!
+     
+    </span> 
+   </center>
+   <div class="menu_area">
+    <a href="signup.aspx" class="info">project </a>
+  
+	  <a href="room_register.aspx" class="works">company</a>
+   <a href="login.aspx" class="ideas">Ebook</a>
+    <a href="search_appart.aspx" class="links">tutorial</a><br />
+       <a href="login.aspx"   class="greenButton" runat="server" >Login</a>
+                <a href="signup.aspx"   class="greenButton" runat="server"> Signup</a>
+      <br />
+   
+	  </div>
+
+ 
+    <br/>
+    <br />
+    <br />
+    <br />
+    <br />
+ <br/><br/>
+
+ 
+
+
+    <div class="roundcorner"; style="width:80%; margin:auto; background-color:transparent; margin-bottom:15px; " >
+   <%-- <table width="100%">
+    <tr style="color:Black">
+    <td align="left">welcome </td>
+    <td align="right">
+    
+    </td>
+    </tr>
+    </table>--%>
+
+    <center>   <h3>WELCOME SEARCH APARTMENT FIND EBOOKS TUTORIALS, PLACE YOUR ADDS, FIND ABOUT YOUR DREAM COMPANY, INFORMATION ABOUT PLACEMENTS , PROJECTS, MINI PROJECT,  FINAL YEAR PROJECTS AND lots more stuff for your future 
+    </h3>
+   </center>
+
+   
+  
+
+    </div>
+
+
+
+
+    <div style="height:100%; width:80%; margin:auto; background-color:transparent">
+
+    <div style="width:24%; height:auto; float:left; background-color:transparent;
+       ">
+
+&nbsp &nbsp&nbsp&nbsp &nbsp&nbsp
+<a href="room_register.aspx" runat="server">
+
+   <img src="images/rl-livingthere-60x75.png" height="70px" />
+ 
+   <br />
+        
+         ADVERTISE APARTMENT   
+      </a>
+
+
+         <br />
+      <br /> <br />
+    <br />
+      &nbsp &nbsp&nbsp&nbsp &nbsp&nbsp
+      <a href="search_appart.aspx" runat="server">
+    <img src="images/rl-movingin-60x75.png" height="70px" />
+	   <br />
+       SEARCH APARTMENT      
+      </a>
+     <br />
+    <br />
+      <br />
+    <br />
+    &nbsp &nbsp&nbsp&nbsp &nbsp&nbsp
+    <a href="help.aspx" runat="server" >
+      <img src="images/rl-movingout-60x75.png" height="70px" />
+	     <br />
+        
+         HOW CAN I HELP YOU
+        </a>
+        <br />
+        <br />
+	  
+	
+	   
+
+
+    </div>
+    
+    <div style="width:74%; height:100%; float:left; background-color:transparent;">
+
+    
+    <asp:ContentPlaceHolder id="ContentPlaceHolder1" runat="server">
+
+
+   
+        </asp:ContentPlaceHolder>
+    </div>
+
+    
+
+     
+
+    </div>
+
+
+    <!--Start of Zopim Live Chat Script-->
+<script type="text/javascript">
+    window.$zopim || (function (d, s) {
+        var z = $zopim = function (c) { z._.push(c) }, $ = z.s =
+d.createElement(s), e = d.getElementsByTagName(s)[0]; z.set = function (o) {
+    z.set.
+_.push(o)
+}; z._ = []; z.set._ = []; $.async = !0; $.setAttribute('charset', 'utf-8');
+        $.src = '//cdn.zopim.com/?13nOWDxJmGPw7UjySjTjxU18OHVwN9r8'; z.t = +new Date; $.
+type = 'text/javascript'; e.parentNode.insertBefore($, e)
+    })(document, 'script');
+</script>
+<!--End of Zopim Live Chat Script-->
+
+
+
+    <br /><br/>
+    <div  style="min-height:50px; width:80%; background-color:transparent; margin:auto;">
+ 
+    <div align="center" >
+
+<a href="Default.aspx">HOME</a>  |  <a href="search_appart.aspx">SEARCH APARTMENT</a>  |  <a href="login.aspx"> LOGIN</a>  |
+  <a href="room_register.aspx">ADVERTISE APARTMENT </a> |
+	  <a href="help.aspx">HELP</a>   |  <a href="signup.aspx">SIGN UP</a>   | <a href="contact.aspx">CONTACT US </a>
+    <div align="center">&copy; Copyright  All Rights Reserved</div>
+
+  
+ 
+    <div align="center">Designed By : <a href="#">TANUJ SANWAL</a></div>
+    <p>
+    <a href="http://validator.w3.org/check?uri=referer"><img
+      src="http://www.w3.org/Icons/valid-xhtml10" alt="Valid XHTML 1.0 Transitional" height="31" width="88" /></a>
+  </p>
+  
+    </div>
+    </div>
+   
+    </form>
+</body>
+</html>

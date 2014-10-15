@@ -1,0 +1,242 @@
+﻿.roundcorner
+{
+    border:0px solid #eff0f0;
+    border-radius:0px;
+    -webkit-border-radius:15px;
+    -moz-border-radius:15px;
+    -o-border-radius:15px;
+    outline:0;
+width:80%;
+margin:0 auto;
+
+}
+  
+
+
+.logo {
+	
+	
+	padding: 0px;
+	float: left;
+	height: 95px;
+	width: 321px;
+	margin-top: 0px;
+	margin-right: 0px;
+	margin-bottom: 0px;
+	margin-left: 0px;
+	
+}
+
+.menu_area {
+	padding: 0px;
+    float: left;
+	margin-top: 58px;
+	margin-right: 0px;
+	margin-bottom: 0px;
+	margin-left: 0px;
+	width: 976px;
+}
+
+.menu_text {
+	font-family: Arial;
+	font-size: 10px;
+	font-weight: normal;
+	font-variant: normal;
+	text-transform: none;
+	color: #FFFFFF;
+	text-decoration: none;
+	
+}
+.ideas {
+	font-family: Arial;
+	font-size: 31px;
+	font-weight: normal;
+	text-transform: lowercase;
+	color: #5a5a5a;
+	text-decoration: none;
+	background-image: url('images/menu_01.png');
+	background-repeat: no-repeat;
+	margin: 0px;
+	float: left;
+	height: 70px;
+	width: 83px;
+	padding-top: 10px;
+	padding-right: 0px;
+	padding-bottom: 0px;
+	padding-left: 61px;
+
+
+}
+.ideas:hover {
+	font-family: Arial;
+	font-size: 31px;
+	font-weight: normal;
+	text-transform: lowercase;
+	color: #ffffff;
+	text-decoration: none;
+	background-image: url(images/menu_01.png);
+	background-repeat: no-repeat;
+	margin: 0px;
+	float: left;
+	height: 70px;
+	width: 100px;
+	padding-top: 10px;
+	padding-right: 0px;
+	padding-bottom: 0px;
+	padding-left: 61px;
+}
+.links {
+	font-family: Arial;
+	font-size: 31px;
+	font-weight: normal;
+	text-transform: lowercase;
+	color: #5a5a5a;
+	text-decoration: none;
+	background-image: url('images/menu_02.png');
+	background-repeat: no-repeat;
+	margin: 0px;
+	float: left;
+	height: 70px;
+	width: 89px;
+	padding-top: 10px;
+	padding-right: 0px;
+	padding-bottom: 0px;
+	padding-left: 59px;
+}
+.links:hover {
+	font-family: Arial;
+	font-size: 31px;
+	font-weight: normal;
+	text-transform: lowercase;
+	color: #ffffff;
+	text-decoration: none;
+	background-image: url(images/menu_02.png);
+	background-repeat: no-repeat;
+	margin: 0px;
+	float: left;
+	height: 70px;
+	width: 100px;
+	padding-top: 10px;
+	padding-right: 0px;
+	padding-bottom: 0px;
+	padding-left: 59px;
+}
+.info{
+	font-family: Arial;
+	font-size: 31px;
+	font-weight: normal;
+	text-transform: lowercase;
+	color: #5a5a5a;
+	text-decoration: none;
+	background-image: url('images/menu_03.png');
+	background-repeat: no-repeat;
+	margin: 0px;
+	float: left;
+	height: 70px;
+	width: 94px;
+	padding-top: 10px;
+	padding-right: 0px;
+	padding-bottom: 0px;
+	padding-left: 60px;
+}
+.info:hover{
+	font-family: Arial;
+	font-size: 31px;
+	font-weight: normal;
+	text-transform: lowercase;
+	color: #ffffff;
+	text-decoration: none;
+	background-image: url(images/menu_03.png);
+	background-repeat: no-repeat;
+	margin: 0px;
+	float: left;
+	height: 70px;
+	width: 100px;
+	padding-top: 10px;
+	padding-right: 0px;
+	padding-bottom: 0px;
+	padding-left: 60px;
+}
+.works {
+	font-family: Arial;
+	font-size: 31px;
+	font-weight: normal;
+	text-transform: lowercase;
+	color: #5a5a5a;
+	text-decoration: none;
+	background-image: url('images/menu_04.png');
+	background-repeat: no-repeat;
+	margin: 0px;
+	float: left;
+	height: 70px;
+	width: 143px;
+	padding-top: 10px;
+	padding-right: 0px;
+	padding-bottom: 0px;
+	padding-left: 60px;
+}
+.works:hover {
+	font-family: Arial;
+	font-size: 31px;
+	font-weight: normal;
+	text-transform: lowercase;
+	color: #ffffff;
+	text-decoration: none;
+	background-image: url(images/menu_04.png);
+	background-repeat: no-repeat;
+	margin: 0px;
+	float: left;
+	height: 70px;
+	width: 105px;
+	padding-top: 10px;
+	padding-right: 0px;
+	padding-bottom: 0px;
+	padding-left: 60px;
+}
+
+.greenButton{
+	width:auto;
+	margin:10px 0 0 2px;
+	padding:10px 10px 5px 10px;
+	color:white;
+	background-color:#589d39;
+	outline:none;
+	border:2px solid #006600;
+	font-weight:bold;
+
+    
+    border-radius:0px;
+    -webkit-border-radius:7px;
+    -moz-border-radius:7px;
+    -o-border-radius:7px;
+    outline:0;
+
+
+}
+
+.greenButton:active{
+	background-color:#006600;
+	padding:10px 10px 5px 10px;
+	padding:4px 3px 2px 5px;
+	
+	
+
+	
+}
+
+.head {
+	font-family: Georgia;
+	font-size: 45px;
+	font-weight: normal;
+	color: #d0910b;
+
+	
+	
+}
+.body_textarea {
+	font-family: Arial;
+	font-size: 18px;
+	font-weight: normal;
+	color: #3c6f75;
+	
+}

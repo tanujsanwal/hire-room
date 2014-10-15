@@ -1,0 +1,68 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeFile="MasterPage.master.cs" Inherits="MasterPage" %>
+
+<%@ Register Src="WebUserControl.ascx" TagName="work" TagPrefix="mywork" %>
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head runat="server">
+
+ 
+    <title>Tanuj Website</title>
+
+
+    <asp:ContentPlaceHolder id="head" runat="server">
+    </asp:ContentPlaceHolder>
+</head>
+<body style="background-image:url(../images/header_pic.jpg);">
+    <form id="form1" runat="server">
+    
+    <div style="height:200px; width:80%; margin:0 auto; font-weight: bold; background-image:url(../bg.jpg);">
+      <center>
+ 
+      </center>
+    
+    </div>
+
+    <div style="width:80%; margin:auto; background-color: #5E5E00">
+    <table width="100%">
+    <tr style="color: #AAAA55">
+    <td align="left">Welcome Admin</td>
+    <td align="right">
+    <asp:LinkButton ID="logout" runat="server" Text="Logout" OnClick="logout_Click" 
+            CssClass="logout" ForeColor="#AAAA55"></asp:LinkButton>
+    </td>
+    </tr>
+    </table>
+    </div>
+
+    <div style="height:500px; width:80%; margin:auto; background-color: White;">
+
+    <div style="width:26%; height :500px; float:left; background-color: White;
+        border-right-width: 2px; border-right-style: solid;">
+          <mywork:work ID="manage" runat="server" />
+    
+
+
+    </div>
+    
+    <div style="width:72%; height:500px; float:left; background-color:White;">
+
+    
+
+    <asp:ContentPlaceHolder id="ContentPlaceHolder1" runat="server">
+        
+    </asp:ContentPlaceHolder>
+    </div>
+
+    </div>
+
+    <div style="height:50px; width:80%; background-color:#5E5E00; margin:auto;">
+    
+    </div>
+    
+    
+    
+    </form>
+</body>
+</html>
